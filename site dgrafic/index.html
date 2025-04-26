@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DGRAFIC - Gráfica Profissional</title>
+  
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Botão Dark Mode -->
+  <button id="dark-mode-toggle" aria-label="Alternar modo escuro">🌙</button>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo-container">
+      <img src="images/logo DGRAFIC.jpeg" alt="Logo DGRAFIC" class="logo" />
+    </div>
+
+    <button id="mobile-menu-toggle" aria-label="Abrir menu">☰</button>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Hero -->
+  <section id="home" class="hero">
+    <div class="hero-banner">
+      <img src="images/LOGO DGRAFIC.jpg" alt="Banner Principal" />
+      <div class="hero-text">
+        <h1>Bem-vindo à DGRAFIC</h1>
+        <p>Qualidade em impressão gráfica</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="services" class="services">
+    <h2>Serviços</h2>
+    <p>Oferecemos uma ampla gama de serviços de impressão:</p>
+    <div class="service-items">
+      <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+        <h3>Impressão de cartões de visita</h3>
+      </div>
+      <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+        <h3>Impressão digital e offset</h3>
+      </div>
+      <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+        <h3>Criação de materiais promocionais</h3>
+      </div>
+      <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+        <h3>Personalização de embalagens</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio" class="portfolio">
+    <h2 data-aos="fade-up">Nosso Portfólio</h2>
+    <p data-aos="fade-up">Confira alguns dos nossos trabalhos.</p>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/portfolio1.jpg" alt="Cartões Visita" />
+        <h3>Cartões de Visita</h3>
+      </div>
+      <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/portfolio2.jpg" alt="Impressão Digital" />
+        <h3>Impressão Digital</h3>
+      </div>
+      <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+        <img src="images/portfolio3.jpg" alt="Materiais Promocionais" />
+        <h3>Materiais Promocionais</h3>
+      </div>
+      <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+        <img src="images/portfolio4.jpg" alt="Embalagens Personalizadas" />
+        <h3>Embalagens Personalizadas</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contact" class="contact">
+    <h2>Contato</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+      <p class="feedback" style="display: none;"></p>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 DGRAFIC | Todos os direitos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
